@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat:wght@600&display=swap');
+
+:root {
+    --cor-azul-claro: #539feb;
+    --cor-branca: #FAF0CA;
+    --cor-vermelha: #F95738;
+} 
+
+body {
+    box-sizing: border-box;
+    background-color: #0D3B66;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--cor-branca);
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-vermelha);
+}
+
+.principal__lista__linha::before {
+    content: "➤ "; /* Símbolo que você deseja adicionar */
+    color: silver; /* Cor do símbolo */
+    margin-right: 8px; /* Espaço entre o símbolo e o texto */
+}
+
+.principal__lista {
+    font-weight: 400;
+}
+
+.principal__lista__link {
+    color: var(--cor-azul-claro);
+    text-decoration: none;
+}
+
+.principal__lista-link:hover {
+    color: var(--cor-vermelha);
+}
+
+.rodape {
+    background-color: var(--cor-azul-claro);
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
