@@ -17,7 +17,7 @@ function gerarListaProjetos() {
     projetos.forEach(projeto => {
         const li = document.createElement('li')
         li.className = 'principal__lista__linha'
-        li.innerHTML = `${projeto.titulo} <a class="principal__lista__link" href="${projeto.url}">certificado</a>`
+        li.innerHTML = `<a class="principal__lista__link" href="${projeto.url}">${projeto.titulo}</a>`
         lista.appendChild(li)
     })
 }
