@@ -1,3 +1,7 @@
+body {
+    box-sizing: border-box;
+}
+
 .cabecalho {
     padding: 1rem 2rem;
 }
@@ -24,6 +28,13 @@
     width: auto;
     padding: 1.5rem;
     text-align: center;
+}
+
+.rodape__no__chao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 90vh;
 }
 
 @media (min-width: 720px) {
