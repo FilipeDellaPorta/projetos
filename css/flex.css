@@ -24,6 +24,12 @@ body {
     line-height: 2rem;
 }
 
+.lista_projeto_imagem {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
 .rodape {
     width: auto;
     padding: 1.5rem;

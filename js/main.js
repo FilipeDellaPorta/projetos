@@ -1,11 +1,13 @@
 const projetos = [
     {
         titulo: "Freeway",
-        url: "https://freeway-rho.vercel.app/"
+        url: "https://freeway-rho.vercel.app/",
+        imagem: "../assets/freeway.png" 
     },
     {
         titulo: "Pong",
-        url: "https://pong-sand.vercel.app/"
+        url: "https://pong-sand.vercel.app/",
+        imagem: "../assets/pong.png"
     }
 ]
 
@@ -17,7 +19,7 @@ function gerarListaProjetos() {
     projetos.forEach(projeto => {
         const li = document.createElement('li')
         li.className = 'principal__lista__linha'
-        li.innerHTML = `<a class="principal__lista__link" href="${projeto.url}">${projeto.titulo}</a>`
+        li.innerHTML = `<div class="lista_projeto_imagem"><img class="imagem_projeto" src="${projeto.imagem}" alt="Jogo ${projeto.imagem}"><a class="principal__lista__link" href="${projeto.url}">${projeto.titulo}</a></div>`
         lista.appendChild(li)
     })
 }
