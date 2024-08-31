@@ -40,6 +40,10 @@ body {
     color: var(--cor-vermelha);
 }
 
+.projeto_descricao {
+    font-size: .6rem;
+}
+
 .rodape {
     background-color: var(--cor-azul-claro);
 }
@@ -47,6 +51,10 @@ body {
 @media (min-width: 1024px) {
     body {
         font-size: 1.5rem;
+    }
+
+    .projeto_descricao {
+        font-size: 1rem;
     }
 
 }
