@@ -61,11 +61,19 @@ body {
     .descricao_projeto {
         display: block;
     }
+
+    .rodape__no__chao {
+        min-height: 95vh;
+    }
 }
 
 @media (max-width: 480px) {
     .lista_projeto_imagem {
         display: flex;
         flex-direction: column;
+    }
+
+    .rodape__no__chao {
+        min-height: 92vh;
     }
 }
