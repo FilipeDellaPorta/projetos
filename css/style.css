@@ -27,16 +27,16 @@ body {
     font-weight: 400;
 }
 
-.imagem_projeto {
+.projeto_imagem {
     width: 50%;
 }
 
-.principal__lista__link {
+.projeto__link {
     color: var(--cor-azul-claro);
     text-decoration: none;
 }
 
-.principal__lista__link:hover {
+.projeto_link:hover {
     color: var(--cor-vermelha);
 }
 
