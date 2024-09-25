@@ -7,6 +7,7 @@
 } 
 
 body {
+    box-sizing: border-box;
     background: linear-gradient(135deg, #0D3B66, #90e0ef);
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
