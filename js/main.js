@@ -23,7 +23,7 @@ function gerarListaProjetos() {
   projetos.forEach((projeto) => {
     const li = document.createElement("li");
     li.className = "principal__lista__linha";
-    li.innerHTML = `<div class="projeto_item"><img class="projeto_imagem" src="${projeto.imagem}" alt="Jogo ${projeto.titulo}"><div class="projeto_texto"><a class="projeto__link" href="${projeto.url}">${projeto.titulo}</a><p class="projeto_descricao">${projeto.descricao}</p></div></div>`;
+    li.innerHTML = `<div class="projeto__item"><img class="projeto__imagem" src="${projeto.imagem}" alt="Jogo ${projeto.titulo}"><div class="projeto__texto"><a class="projeto__link" href="${projeto.url}">${projeto.titulo}</a><p class="projeto__descricao">${projeto.descricao}</p></div></div>`;
     lista.appendChild(li);
   });
 }

@@ -24,13 +24,13 @@ body {
     line-height: 2rem;
 }
 
-.projeto_item {
+.projeto__item {
     display: flex;
     align-items: center;
     column-gap: 1rem;
 }
 
-.projeto_descricao {
+.projeto__descricao {
     display: none;
 }
 
@@ -52,13 +52,13 @@ body {
         padding: 2% 0 0 15%;
     }
 
-    .projeto_textos {
+    .projeto__textos {
         display: flex;
         flex-direction: column;
         row-gap: 1rem;
     }
 
-    .projeto_descricao {
+    .projeto__descricao {
         display: block;
     }
 
@@ -68,7 +68,7 @@ body {
 }
 
 @media (max-width: 480px) {
-    .projeto_item {
+    .projeto__item {
         display: flex;
         flex-direction: column;
     }

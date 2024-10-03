@@ -28,20 +28,20 @@ body {
     font-weight: 400;
 }
 
-.projeto_imagem {
+.projeto__imagem {
     width: 50%;
 }
 
 .projeto__link {
-    color: var(--cor-azul-claro);
     text-decoration: none;
+    color: var(--cor-azul-claro);
 }
 
-.projeto_link:hover {
+.projeto__link:hover {
     color: var(--cor-vermelha);
 }
 
-.projeto_descricao {
+.projeto__descricao {
     font-size: .6rem;
 }
 
@@ -54,7 +54,7 @@ body {
         font-size: 1.5rem;
     }
 
-    .projeto_descricao {
+    .projeto__descricao {
         font-size: 1rem;
     }
 
